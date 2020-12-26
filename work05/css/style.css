@@ -1,0 +1,123 @@
+body {
+  background-image: url("../img/cafe_background.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#back_image {
+  display: block;
+  margin: auto;
+  border: 5px solid black;
+}
+.page_header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.page_header p {
+  font-weight: bold;
+}
+nav {
+  width: 85%;
+  margin: 0 auto 30px auto;
+  height: 50px;
+  background-color: #c5bc11;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  float: left;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+nav ul li:hover {
+  background-color: #aba30e;
+}
+nav ul li a {
+  display: block;
+  padding: 11.5px 8px;
+  border-right: 2px solid black;
+}
+nav ul li a:link {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:visited {
+  text-decoration: none;
+  color: black;
+}
+#title {
+  background-color: #c5bc11;
+  text-shadow: 1px 1px grey;
+  border: 5px solid black;
+}
+#catchcopy {
+  color: #c5bc11;
+  text-shadow: 1px 1px black;
+  font-size: 300%;
+}
+.page_body {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(158, 158, 158, 0.8);
+  border: 3px groove black;
+  border-radius: 10px;
+}
+.contents {
+  margin: 40px 30px;
+}
+.contents ul {
+  list-style: inside;
+}
+.contents h2 {
+  padding: 5px 15px;
+  border-left: 8px solid #aba30e;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.contents p {
+  padding: 1rem 2.5rem;
+  line-height: 2rem;
+  font-size: 18px;
+}
+.contents img {
+  padding: 1rem 2.5rem;
+}
+#menu {
+  border: medium solid black;
+  width: 50%;
+  margin: 30px auto;
+}
+/* 以下の部分は簡単に最終課題のサイトに戻れるように追加された */
+.return {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(64, 216, 219, 0.6);
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px #000;
+
+}
+.return a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px #000;
+  display: inline-block;
+  padding-top: 5px;
+}
