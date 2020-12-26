@@ -111,27 +111,31 @@ hr {
   border-radius: 10px;
 }
 
+div.section {
+  margin-bottom: 8rem;
+}
+
+.section p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.section hr {
+  width: 25%;
+  box-shadow: 1px 1px 15px black;
+  border-radius: 10px;
+  border-color: rgba(200, 0, 0);
+}
+
 div.about {
   margin-top: 10rem;
   /* margin-bottom: 10rem; */
 }
 
-.about p {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.about img {
+.profile-pic {
   border-radius: 50%;
   width: 10rem;
   margin-bottom: 1rem;
-}
-
-.about hr {
-  width: 25%;
-  box-shadow: 1px 1px 15px black;
-  border-radius: 10px;
-  border-color: rgba(200, 0, 0);
 }
 
 .links img {
@@ -163,6 +167,11 @@ div.about {
 .img-text h2 {
   text-shadow: 2px 2px 5px #000;
 }
+
+/* div.japanese {
+  margin-top: 8rem;
+  margin-bottom: 20rem;
+} */
 
 
 
