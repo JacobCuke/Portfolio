@@ -66,9 +66,9 @@ hr {
   border-bottom: 3px solid rgba(160, 0, 0, 0.6);
 }
 
-#navbarMenu .current-page {
+#navbarMenu .active {
   background-color: rgba(114, 0, 0, 0.6);
-  /* border-bottom: 3px solid rgba(114, 0, 0, 0.6); */
+  transition: 0.3s;
 }
 
 .fa-bars {
@@ -137,7 +137,6 @@ div.section {
 
 div.about {
   margin-top: 10rem;
-  /* margin-bottom: 10rem; */
 }
 
 .profile-pic {
@@ -176,10 +175,9 @@ div.about {
   text-shadow: 2px 2px 5px #000;
 }
 
-/* div.japanese {
-  margin-top: 8rem;
+div.contact {
   margin-bottom: 20rem;
-} */
+}
 
 
 
