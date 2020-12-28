@@ -1,4 +1,4 @@
-{
+let langdata = {
     "languages": {
         "en": {
             "strings": {
