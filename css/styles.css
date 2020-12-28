@@ -75,6 +75,19 @@ hr {
   color: #fff;
 }
 
+.lang-selector {
+  margin: 0 30px;
+}
+
+.lang-selector button {
+  background-color: rgba(41, 41, 41, 0.8);
+  border: none;
+}
+
+.lang-menu {
+  cursor: pointer;
+}
+
 .jumbotron {
   background-image: url("../img/main_image.PNG");
   background-color: rgba(41, 41, 41);
