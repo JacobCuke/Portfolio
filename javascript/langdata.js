@@ -2,7 +2,7 @@ let langdata = {
     "languages": {
         "en": {
             "strings": {
-                "about-head": "About",
+                "about-head": "About Me",
                 "projects-head": "Projects",
                 "japanese-head": "Japanese",
                 "guitar-head": "Guitar",

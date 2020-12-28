@@ -6,5 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setText(language) {
-
+    document.querySelectorAll(`[data-langkey]`).forEach(element => {
+        let key = element.getAttribute('data-langkey');
+        if (key) {
+            element.textContent = langdata.languages[language].strings[key];
+        }
+    });
 }
