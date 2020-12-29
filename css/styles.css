@@ -148,6 +148,7 @@ div.section {
 .section p {
   padding-left: 18%;
   padding-right: 18%;
+  font-size: 1.2rem;
 }
 
 .section hr {
