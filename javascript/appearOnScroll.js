@@ -1,7 +1,8 @@
 const fadingSections = document.querySelectorAll('.fade-in');
+const slidingSections = document.querySelectorAll('.slide-in');
 
 const options = {
-    threshold: 0.5
+    threshold: 0.4
 };
 
 const appearOnScroll = new IntersectionObserver(
@@ -17,5 +18,9 @@ const appearOnScroll = new IntersectionObserver(
     }, options);
 
 fadingSections.forEach(section => {
+    appearOnScroll.observe(section);
+});
+
+slidingSections.forEach(section => {
     appearOnScroll.observe(section);
 });

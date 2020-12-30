@@ -13,6 +13,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   color: #FFF;
+  overflow-x: hidden;
 }
 
 .english {
@@ -202,6 +203,24 @@ div.about {
   text-shadow: 2px 2px 5px #000;
 }
 
+.from-left {
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+}
+
+.slide-in {
+  transition: opacity 450ms ease-in, transform 475ms ease-in;
+  opacity: 0;
+}
+
+.slide-in.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .japanese-info {
   margin-top: 5rem;
 }
@@ -253,12 +272,4 @@ div.about {
 
 div.contact {
   margin-bottom: 20rem;
-}
-
-.test-red {
-  background-color: red;
-}
-
-.test-blue {
-  /* background-color: blue; */
 }
