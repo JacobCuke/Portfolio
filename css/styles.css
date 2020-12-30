@@ -212,7 +212,7 @@ div.about {
 }
 
 .slide-in {
-  transition: opacity 450ms ease-in, transform 475ms ease-in;
+  transition: opacity 450ms ease-in, transform 500ms ease-in;
   opacity: 0;
 }
 
