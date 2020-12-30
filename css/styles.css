@@ -202,6 +202,63 @@ div.about {
   text-shadow: 2px 2px 5px #000;
 }
 
+.japanese-info {
+  margin-top: 5rem;
+}
+
+.japanese-info img {
+  height: 250px;
+  width: 85%;
+  object-fit: cover;
+  /* float: left; */
+}
+
+.japanese-info h2 {
+  padding-top: 15px;
+}
+
+.japanese-info hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.info-col-right h2 {
+  text-align: left;
+}
+
+.info-col-right hr {
+  margin-left: 0;
+}
+
+.info-col-right p {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.info-col-left h2 {
+  text-align: right;
+}
+
+.info-col-left hr {
+  margin-right: 0;
+}
+
+.info-col-left p {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 div.contact {
   margin-bottom: 20rem;
+}
+
+.test-red {
+  background-color: red;
+}
+
+.test-blue {
+  /* background-color: blue; */
 }
