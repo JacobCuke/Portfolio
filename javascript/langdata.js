@@ -17,6 +17,12 @@ let langdata = {
                 "speech-head": "Speeches",
                 "speech-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus magni officia maxime sequi doloribus quod iusto eligendi nam mollitia eius saepe quidem amet, explicabo veritatis voluptas, culpa rem voluptatibus!",
                 "guitar-text": "I also taught myself to play the electric guitar, and currently play for one of the largest churches in Canada. Below are some of the things I've worked on and a link to my Instagram where I post guitar covers regularly.",
+                "live-head": "Live Services",
+                "live-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus magni officia maxime sequi doloribus quod iusto eligendi nam mollitia eius saepe quidem amet, explicabo veritatis voluptas, culpa rem voluptatibus!",
+                "mv-head": "Music Videos",
+                "mv-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus magni officia maxime sequi doloribus quod iusto eligendi nam mollitia eius saepe quidem amet, explicabo veritatis voluptas, culpa rem voluptatibus!",
+                "instagram-head": "Instagram",
+                "instagram-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus magni officia maxime sequi doloribus quod iusto eligendi nam mollitia eius saepe quidem amet, explicabo veritatis voluptas, culpa rem voluptatibus!",
                 "instagram-pic": "Instagram",
                 "contact-text": "Below is a link to my full resume and my contact information. Feel free to reach out to me in whatever way works best."
             }
@@ -38,6 +44,12 @@ let langdata = {
                 "speech-head": "スピーチ",
                 "speech-text": "いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。",
                 "guitar-text": "ギターの弾き方も独学で覚え、現在カナダの中で一番大きな教会でバンドのギターを担当させていただいています。以下の動画はライブ配信の演出、そしてクリスマスに撮影したMVからの映像です。インスタにもギターの動画を投稿しているので興味があれば是非ご覧ください。",
+                "live-head": "ライブ",
+                "live-text": "いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。",
+                "mv-head": "MV",
+                "mv-text": "いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。",
+                "instagram-head": "インスタグラム",
+                "instagram-text": "いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。",
                 "instagram-pic": "インスタ",
                 "contact-text": "以下のリンクにて履歴書のPDF版をチェックしていただければと思います。そして何かがありましたらメールなりインスタのDMなりご連絡ください。"
             }

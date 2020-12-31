@@ -221,22 +221,22 @@ div.about {
   opacity: 1;
 }
 
-.japanese-info {
+.info-box {
   margin-top: 5rem;
 }
 
-.japanese-info img {
+.info-box img, iframe {
   height: 250px;
   width: 85%;
   object-fit: cover;
   /* float: left; */
 }
 
-.japanese-info h2 {
+.info-box h2 {
   padding-top: 15px;
 }
 
-.japanese-info hr {
+.info-box hr {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 40%;
