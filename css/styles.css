@@ -173,6 +173,33 @@ div.about {
   margin-bottom: 1rem;
 }
 
+.skill-set {
+  margin-top: 3rem;
+  width: 40%;
+}
+
+.skill-set hr {
+  /* margin-left: 0; */
+  width: 6rem;
+}
+
+.skill-set ul {
+  margin: auto;
+  width: 45%;
+  text-align: left;
+}
+
+.skill-set li {
+  margin: 0.2rem 0;
+  list-style: none;
+}
+
+.skill-set li::before {
+  content: "\25B9";
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
 /* .from-left {
   transform: translateX(-50%);
 }
