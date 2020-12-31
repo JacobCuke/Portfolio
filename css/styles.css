@@ -203,7 +203,7 @@ div.about {
   text-shadow: 2px 2px 5px #000;
 }
 
-.from-left {
+/* .from-left {
   transform: translateX(-50%);
 }
 
@@ -219,7 +219,7 @@ div.about {
 .slide-in.appear {
   transform: translateX(0);
   opacity: 1;
-}
+} */
 
 .info-box {
   margin-top: 5rem;
@@ -229,7 +229,6 @@ div.about {
   height: 250px;
   width: 85%;
   object-fit: cover;
-  /* float: left; */
 }
 
 .info-box h2 {
