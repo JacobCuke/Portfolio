@@ -173,36 +173,6 @@ div.about {
   margin-bottom: 1rem;
 }
 
-.links img {
-  height: 200px;
-  object-fit: cover;
-}
-
-.link {
-  transition: 0.3s;
-}
-
-.links a  {
-  color: #fff;
-  text-decoration: none;
-}
-
-.link:hover {
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-}
-
-.img-text {
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-text h2 {
-  text-shadow: 2px 2px 5px #000;
-}
-
 /* .from-left {
   transform: translateX(-50%);
 }
