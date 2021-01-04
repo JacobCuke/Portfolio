@@ -92,12 +92,17 @@ hr {
   background-size: cover;
   background-position: center;
   box-shadow: 3px 0 5px #000;
+  position: relative;
 }
 
 .title {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
 .title h1,
