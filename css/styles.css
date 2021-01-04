@@ -16,10 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-.english {
-  font-family: 'Roboto', sans-serif;
-}
-
 hr {
   display: block;
   unicode-bidi: isolate;
