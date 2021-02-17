@@ -22,7 +22,7 @@ let langdata = {
                 "live-text": "At CSC we have live services every weekend where I regularly serve in the worship band. This is one of the songs we did recently!",
                 "mv-head": "Music Videos",
                 "mv-text": "Here is one of the music videos we made for the Christmas season that I was a part of. Thankfully it wasn't very cold when we filmed it!",
-                "contact-text": "Below is a link to my full resume and my contact information. Feel free to reach out to me in whatever way works best."
+                "contact-text": "Below is a link to my full resume and contact information. Feel free to reach out in whatever way works best."
             }
         },
         "jp": {
