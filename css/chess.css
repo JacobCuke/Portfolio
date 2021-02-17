@@ -1,0 +1,46 @@
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  height: 80px;
+  width: 80px;
+  padding: 0px;
+  margin: 0px;
+}
+
+td img {
+  height: 79px;
+  width: 79px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.green {
+  background-color: limegreen;
+}
+
+.selected {
+  outline: 3px solid red;
+  outline-offset: -3px;
+}
+
+.game-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#game-board {
+  margin: auto;
+}
