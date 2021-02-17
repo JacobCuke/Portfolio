@@ -176,7 +176,7 @@ div.about {
 }
 
 .skill-set {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   width: 40%;
 }
 
@@ -185,18 +185,18 @@ div.about {
   width: 7rem;
 }
 
-.skill-set ul {
+.my-list ul {
   margin: auto;
   width: 45%;
   text-align: left;
 }
 
-.skill-set li {
+.my-list li {
   margin: 0.2rem 0;
   list-style: none;
 }
 
-.skill-set li::before {
+.my-list li::before {
   content: "\25B9";
   font-size: 1.2rem;
   margin-right: 10px;
@@ -267,6 +267,30 @@ div.about {
   text-align: right;
   padding-left: 0;
   padding-right: 0;
+}
+
+.project-list {
+  text-align: left;
+  width: 100%;
+}
+
+.project-list a {
+  color: rgba(220, 0, 0);
+}
+
+.list-right {
+  text-align: right;
+  direction: rtl;
+}
+
+.list-right li::before {
+  content: "\25C3";
+  font-size: smaller;
+}
+
+.list-right-text {
+  position: relative;
+  right: 10px;
 }
 
 div.contact {
