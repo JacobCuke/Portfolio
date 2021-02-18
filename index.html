@@ -27,22 +27,22 @@
       <div id="navbarMenu" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#about" class="nav-link" data-langkey="about-head">自己紹介</a>
+            <a href="#about" class="nav-link" data-langkey="about-head">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#programming" class="nav-link" data-langkey="projects-head">制作</a>
+            <a href="#programming" class="nav-link" data-langkey="projects-head">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#japanese" class="nav-link" data-langkey="japanese-head">日本語</a>
+            <a href="#japanese" class="nav-link" data-langkey="japanese-head">Japanese</a>
           </li>
           <li class="nav-item">
-            <a href="#guitar" class="nav-link" data-langkey="guitar-head">ギター</a>
+            <a href="#guitar" class="nav-link" data-langkey="guitar-head">Guitar</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link" data-langkey="contact-head">連絡</a>
+            <a href="#contact" class="nav-link" data-langkey="contact-head">Resume</a>
           </li>
           <li class="nav-item">
-            <a onclick="toggleLanguage()" class="nav-link lang-menu" data-langkey="lang-selector">English</a>
+            <a onclick="toggleLanguage()" class="nav-link lang-menu" data-langkey="lang-selector">日本語</a>
           </li>
         </ul>
       </div>
@@ -53,16 +53,22 @@
         <h1 class="english animate__animated animate__fadeInDown animate__delay-1s">Jacob Cuke</h1>
         <h2 class="animate__animated animate__fadeInDown animate__delay-1s">ジェイコブ・キューク</h2>
         <hr class="animate__animated animate__zoomIn animate__delay-2s">
-        <h3 class="animate__animated animate__fadeInUp animate__delay-2s" data-langkey="main-desc">プログラマー／ギタリスト</h3>
+        <h3 class="animate__animated animate__fadeInUp animate__delay-2s" data-langkey="main-desc">Programmer/Guitarist</h3>
       </div>
     </div>
 
     <div id="about" class="section anchor about col-12 text-center">
       <div class="fade-in">
         <img class="profile-pic" src="img/profile.jpg" alt="profile_picture">
-        <h1 class="text-light font-weight-bold" data-langkey="about-head">自己紹介</h1>
+        <h1 class="text-light font-weight-bold" data-langkey="about-head">About Me</h1>
         <hr class="my-4">
-        <p class="lead" data-langkey="about-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+        <p class="lead" data-langkey="about-text">
+          Hello! My name is Jacob Cuke and I'm currently in my final year of Computer Science at the University of Calgary. I have a passion for problem solving and building applications, with a focus on web development and database management. I also love teaching myself new skills, and have taught myself to speak Japanese fluently, and to play the guitar.
+        </p>
+      </div>
+
+      <div class="fade-in mt-4">
+        <a class="btn btn-resume" href="Jacob Cuke Resume Feb 2021.pdf" target="_blank" data-langkey="resume-button">Download Resume</a>
       </div>
 
       <div class="container contact-links mt-4 fade-in">
@@ -74,7 +80,7 @@
       <div class="container skill-set fade-in">
         <h4 class="font-weight-bold" data-langkey="skillset-head">Skillset</h4>
         <hr>
-        <div class="row mt-4">
+        <div class="row">
           <div class="col-md-6 my-list">
             <ul>
               <li>Django</li>
@@ -97,82 +103,84 @@
 
     <div id="programming" class="section anchor programming col-12 text-center">
       <div class="fade-in">
-        <h1 class="text-light font-weight-bold" data-langkey="projects-head">制作</h1>
+        <h1 class="text-light font-weight-bold" data-langkey="projects-head">Projects</h1>
         <hr class="my-4">
-        <p class="lead" data-langkey="projects-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+        <p class="lead" data-langkey="projects-text">
+          Below are some of the projects that I'm most proud of, and I feel best represent my abilities as a programmer.
+        </p>
       </div>
 
       <div class="container">
         <div class="row info-box fade-in">
           <div class="col-md-6">
-            <img src="./img/MySouko.png" alt="senshu-pic">
+            <img src="./img/MySouko.png" alt="mysouko-pic">
           </div>
           <div class="col-md-6 info-col-right">
-            <h2 class="font-weight-bold project-title">MySouko <a class="ml-1" href="https://github.com/JacobCuke/MySouko" target="_blank"><i class="fab fa-github"></i></a></h2>
+            <h2 class="font-weight-bold project-title"><span data-langkey="mysouko-title">MySouko</span><a class="ml-2" href="https://github.com/JacobCuke/MySouko" target="_blank"><i class="fab fa-github"></i></a></h2>
             <hr>
             <div class="mt-3 project-list">
-              <p>A web application I built to keep track of all the Japanese books/TV shows/games etc. that I've completed or am currently working on. Visit the site <a href="http://www.mysouko.com" target="_blank">here!</a></p>
+              <p><span data-langkey="mysouko-desc">A web application I built to keep track of all the Japanese books/TV shows/games etc. that I've completed or am currently working on. Visit the site </span><a href="http://www.mysouko.com" target="_blank" data-langkey="mysouko-link">here!</a></p>
               <ul class="my-list">
-                <li>Made using the Django framework in Python</li>
-                <li>Postgres SQL database</li>
-                <li>File storage with AWS S3 bucket</li>
-                <li>Site hosted using Heroku</li>
-                <li>HTML/CSS/JavaScript</li>
-                <li>Mobile-friendly</li>
+                <li data-langkey="mysouko-1">Made using the Django framework in Python</li>
+                <li data-langkey="mysouko-2">Postgres SQL database</li>
+                <li data-langkey="mysouko-3">File storage with AWS S3 bucket</li>
+                <li data-langkey="mysouko-4">Site hosted using Heroku</li>
+                <li data-langkey="mysouko-5">HTML/CSS/JavaScript</li>
+                <li data-langkey="mysouko-6">Mobile-friendly</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="row info-box fade-in">
           <div class="col-md-6 info-col-left">
-            <h2 class="font-weight-bold project-title">Chess Game <a class="ml-1" href="https://github.com/JacobCuke/Chess-Game" target="_blank"><i class="fab fa-github"></i></a></h2>
+            <h2 class="font-weight-bold project-title"><span data-langkey="chess-title">Chess Game</span><a class="ml-2" href="https://github.com/JacobCuke/Chess-Game" target="_blank"><i class="fab fa-github"></i></a></h2>
             <hr>
             <div class="mt-3 project-list">
-              <p>A fun little chess game built entirely using JavaScript. <br>Try it out <a href="chess.html" target="_blank">here!</a></p>
+              <p><span data-langkey="chess-desc-1">A chess game built entirely using JavaScript.</span><br><span data-langkey="chess-desc-2">Try it out </span><a data-langkey="chess-link" href="chess.html" target="_blank">here!</a></p>
               <ul class="my-list list-right">
-                <li><span class="list-right-text">Vanilla JavaScript</span></li>
-                <li><span class="list-right-text">Highlights potential moves</span></li>
-                <li><span class="list-right-text">Detect piece being taken</span></li>
+                <li><span class="list-right-text" data-langkey="chess-1">JavaScript</span></li>
+                <li><span class="list-right-text" data-langkey="chess-2">Highlight potential moves</span></li>
+                <li><span class="list-right-text" data-langkey="chess-3">Collision detection</span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6">
-            <img src="./img/chess.png" alt="senshu-pic">
+            <img src="./img/chess.png" alt="chess-pic">
           </div>
         </div>
         <div class="row info-box fade-in">
           <div class="col-md-6">
-            <img src="./img/ecs_game_engine.png" alt="senshu-pic">
+            <img src="./img/ecs_game_engine.png" alt="game-engine-pic">
           </div>
           <div class="col-md-6 info-col-right">
-            <h2 class="font-weight-bold project-title">Game Engine <a class="ml-1" href="https://github.com/JacobCuke/Game-Engine" target="_blank"><i class="fab fa-github"></i></a></h2>
+            <h2 class="font-weight-bold project-title"><span data-langkey="engine-title">Game Engine</span><a class="ml-2" href="https://github.com/JacobCuke/Game-Engine" target="_blank"><i class="fab fa-github"></i></a></h2>
             <hr>
             <div class="mt-3 project-list">
-              <p>This is a prototype game engine that I built from scratch in order to practice C++ and the Entity-Component-System (ECS) paradigm.</p>
+              <p data-langkey="engine-desc">This is a prototype game engine that I built from scratch in order to practice C++ and the Entity-Component-System (ECS) paradigm.</p>
               <ul class="my-list">
-                <li>Advanced C++</li>
-                <li>XML level map</li>
-                <li>Collision detection</li>
-                <li>Uses the new industry ECS paradigm</li>
+                <li data-langkey="engine-1">Advanced C++</li>
+                <li data-langkey="engine-2">XML level map</li>
+                <li data-langkey="engine-3">Collision detection</li>
+                <li data-langkey="engine-4">Uses the new industry ECS paradigm</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="row info-box fade-in">
           <div class="col-md-6 info-col-left">
-            <h2 class="font-weight-bold project-title">This Site! <a class="ml-1" href="https://github.com/JacobCuke/Portfolio" target="_blank"><i class="fab fa-github"></i></a></h2>
+            <h2 class="font-weight-bold project-title"><span data-langkey="portfolio-title">This Site!</span><a class="ml-2" href="https://github.com/JacobCuke/Portfolio" target="_blank"><i class="fab fa-github"></i></a></h2>
             <hr>
             <div class="mt-3 project-list">
-              <p>I built this site from the ground up as a place to introduce myself and showcase the projects I've worked on in both English and Japanese!</p>
+              <p data-langkey="portfolio-desc">I built this site from the ground up as a place to introduce myself and showcase the projects I've worked on in both English and Japanese!</p>
               <ul class="my-list list-right">
-                <li><span class="list-right-text">HTML/CSS/JavaScript</span></li>
-                <li><span class="list-right-text">Mobile responsive</span></li>
-                <li><span class="list-right-text">Multi-language support using JSON</span></li>
+                <li><span class="list-right-text" data-langkey="portfolio-1">HTML/CSS/JavaScript</span></li>
+                <li><span class="list-right-text" data-langkey="portfolio-2">Mobile responsive</span></li>
+                <li><span class="list-right-text" data-langkey="portfolio-3">Multi-language support using JSON</span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6">
-            <img src="./img/portfolio.png" alt="senshu-pic">
+            <img src="./img/portfolio.png" alt="portfolio-pic">
           </div>
         </div>
       </div>
@@ -180,9 +188,11 @@
 
     <div id="japanese" class="section anchor japanese col-12 text-center">
       <div class="fade-in">
-        <h1 class="text-light font-weight-bold" data-langkey="japanese-head">日本語</h1>
+        <h1 class="text-light font-weight-bold" data-langkey="japanese-head">Japanese</h1>
         <hr class="my-4">
-        <p class="lead" data-langkey="japanese-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+        <p class="lead" data-langkey="japanese-text">
+          What started as just a hobby quickly turned into one of my greatest passions as I spent 4 years teaching myself Japanese to fluency. I've worked as an interpretor, given speeches and even taken courses at the university level in Japan.
+        </p>
       </div>
 
       <div class="container">
@@ -191,16 +201,20 @@
             <img src="./img/senshu.jpg" alt="senshu-pic">
           </div>
           <div class="col-md-6 info-col-right">
-            <h2 class="font-weight-bold" data-langkey="exchange-head">留学</h2>
+            <h2 class="font-weight-bold" data-langkey="exchange-head">Study Abroad</h2>
             <hr>
-            <p data-langkey="exchange-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+            <p data-langkey="exchange-text">
+              I spent a total of 9 months across two seperate trips to Japan studying at Senshu University in Tokyo. While there I studied both Computer Science and Japanese culture, while also helping a local church with the translation and interpretation of their Sunday services.
+            </p>
           </div>
         </div>
         <div class="row info-box fade-in">
           <div class="col-md-6 info-col-left">
-            <h2 class="font-weight-bold" data-langkey="speech-head">スピーチ</h2>
+            <h2 class="font-weight-bold" data-langkey="speech-head">Speeches</h2>
             <hr>
-            <p data-langkey="speech-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+            <p data-langkey="speech-text">
+              I also helped out my university by participating in events, where I gave multiple speeches and presentations entirely in Japanese to university, high school and elementary students.
+            </p>
           </div>
           <div class="col-md-6">
             <img src="./img/speech.jpg" alt="senshu-pic">
@@ -211,9 +225,11 @@
 
     <div id="guitar" class="section anchor guitar col-12 text-center">
       <div class="fade-in">
-        <h1 class="text-light font-weight-bold" data-langkey="guitar-head">ギター</h1>
+        <h1 class="text-light font-weight-bold" data-langkey="guitar-head">Guitar</h1>
         <hr class="my-4">
-        <p class="lead" data-langkey="guitar-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+        <p class="lead" data-langkey="guitar-text">
+          I also taught myself to play the electric guitar, and currently play for one of the largest churches in Canada, Centre Street Church, where I have served for over 4 years.
+        </p>
       </div>
 
       <div class="container">
@@ -222,16 +238,20 @@
             <iframe src="https://www.youtube.com/embed/ZTMiyUqZuwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-md-6 info-col-right">
-            <h2 class="font-weight-bold" data-langkey="live-head">ライブ</h2>
+            <h2 class="font-weight-bold" data-langkey="live-head">Live Services</h2>
             <hr>
-            <p data-langkey="live-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+            <p data-langkey="live-text">
+              At CSC we have live services every weekend where I regularly serve in the worship band. This is one of the songs we did recently!
+            </p>
           </div>
         </div>
         <div class="row info-box fade-in">
           <div class="col-md-6 info-col-left">
-            <h2 class="font-weight-bold" data-langkey="mv-head">MV</h2>
+            <h2 class="font-weight-bold" data-langkey="mv-head">Music Videos</h2>
             <hr>
-            <p data-langkey="mv-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+            <p data-langkey="mv-text">
+              Here is one of the music videos we made for the Christmas season that I was a part of. Thankfully it wasn't very cold when we filmed it!
+            </p>
           </div>
           <div class="col-md-6">
             <iframe src="https://www.youtube.com/embed/-oYhjhC20Eo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -242,12 +262,14 @@
 
     <div id="contact" class="section anchor contact col-12 text-center">
       <div class="fade-in">
-        <h1 class="text-light font-weight-bold" data-langkey="contact-head">連絡</h1>
+        <h1 class="text-light font-weight-bold" data-langkey="contact-head">Resume</h1>
         <hr class="my-4">
-        <p class="lead" data-langkey="contact-text">いよいよ大森さんを呈眼あいにく落第に載った傾向こうした自分私か説明をとしてご発見たたですでしから、その十一月は私かベルグソン日本人がさが、木下さんののを善悪の私がとうとうお推測とするばそれ自分がご標榜に行かように近頃お下宿を構わうないて、何しろもし注文にしでのでいるなのに与えたで。</p>
+        <p class="lead" data-langkey="contact-text">
+          Below is a link to my full resume and contact information. Feel free to reach out in whatever way works best.
+        </p>
       </div>
       <div class="fade-in mt-4">
-        <a class="btn btn-resume" href="Jacob Cuke Resume Feb 2021.pdf" target="_blank">Download Resume</a>
+        <a class="btn btn-resume" href="Jacob Cuke Resume Feb 2021.pdf" target="_blank" data-langkey="resume-button">Download Resume</a>
       </div>
       <div class="container contact-links mt-4 fade-in">
         <a href="mailto:jacobcuke@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
