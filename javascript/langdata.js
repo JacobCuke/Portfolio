@@ -10,7 +10,7 @@ let langdata = {
                 "lang-selector": "日本語",
                 "main-desc": "Programmer/Guitarist",
                 "about-text": "Hello! My name is Jacob Cuke and I'm currently in my final year of Computer Science at the University of Calgary. I have a passion for problem solving and building applications, with a focus on web development and database management. I also love teaching myself new skills, and have taught myself to speak Japanese fluently, and to play the guitar.",
-                "skillset-head": "Skillset",
+                "skillset-head": "Skill Set",
                 "projects-text": "Below are some of the projects that I'm most proud of, and I feel best represent my abilities as a programmer.",
                 "mysouko-title": "MySouko",
                 "mysouko-desc": "A web application I built to keep track of all the Japanese books/TV shows/games etc. that I've completed or am currently working on. Visit the site ",
