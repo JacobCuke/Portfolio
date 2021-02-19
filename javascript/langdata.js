@@ -39,7 +39,7 @@ let langdata = {
                 "portfolio-1": "HTML/CSS/JavaScript",
                 "portfolio-2": "Mobile responsive",
                 "portfolio-3": "Multi-language support using JSON",
-                "japanese-text": "What started as just a hobby quickly turned into one of my greatest passions as I spent 4 years teaching myself Japanese to fluency. I've worked as an interpretor, given speeches and even taken courses at the university level in Japan.",
+                "japanese-text": "What started as just a hobby quickly turned into one of my greatest passions as I spent 4 years teaching myself Japanese to fluency. I've worked as an interpreter, given speeches and even taken courses at the university level in Japan.",
                 "exchange-head": "Study Abroad",
                 "exchange-text": "I spent a total of 9 months across two seperate trips to Japan studying at Senshu University in Tokyo. While there I studied both Computer Science and Japanese culture, while also helping a local church with the translation and interpretation of their Sunday services.",
                 "speech-head": "Speeches",
