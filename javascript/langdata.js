@@ -50,7 +50,12 @@ let langdata = {
                 "mv-head": "Music Videos",
                 "mv-text": "Here is one of the music videos we made for the Christmas season. Thankfully it wasn't very cold when we filmed it!",
                 "contact-text": "Below is a link to my full resume and contact information. Feel free to reach out in whatever way works best.",
-                "resume-button": "Download Resume"
+                "resume-button": "Download Resume",
+                "school-title": "School Management System",
+                "school-desc": "A complete web application and API that allows students and instructors to manage their courses, view lectures, submit and grade assignments.",
+                "school-1": "Built with the Django framework",
+                "school-2": "SQL database with 15+ related tables",
+                "school-3": "Fully fleshed out API with authentication"
             }
         },
         "jp": {
@@ -103,7 +108,12 @@ let langdata = {
                 "mv-head": "MV撮影",
                 "mv-text": "そして次の動画はクリスマスのために特別に撮影したMVなのです。幸いにも撮影当日はそれほど寒くありませんでした！",
                 "contact-text": "以下のリンクにて履歴書のPDF版をチェックすることができますので是非お目通し下さい。そして何かがありましたらメールなり何なり遠慮なくご連絡ください。ご覧いただきありがとうございます！",
-                "resume-button": "履歴書をダウンロード"
+                "resume-button": "履歴書をダウンロード",
+                "school-title": "高校管理システム",
+                "school-desc": "高校管理を行うためのウェブアプリおよそAPI。コースの管理や課題の提出・評価が可能。",
+                "school-1": "Pythonフレームワーク「Django」で作られた",
+                "school-2": "15以上を含むSQLデータベース",
+                "school-3": "認証付きのAPI"
             }
         }
     }
