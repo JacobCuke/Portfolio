@@ -87,7 +87,7 @@ let langdata = {
                 "chess-2": "駒が動けるマスをハイライトする",
                 "chess-3": "衝突判定",
                 "engine-title": "ゲームエンジン",
-                "engine-desc": "C++とEntity Component System (ECS)の設計を練習するためにゼロから作ったゲームエンジン。",
+                "engine-desc": "C++とEntity Component System (ECS)の設計を練習するためにゼロから作られたゲームエンジン。",
                 "engine-1": "上級C++",
                 "engine-2": "XMLマップ",
                 "engine-3": "衝突判定",
@@ -111,8 +111,8 @@ let langdata = {
                 "resume-button": "履歴書をダウンロード",
                 "school-title": "高校管理システム",
                 "school-desc": "高校管理を行うためのウェブアプリおよそAPI。コースの管理や課題の提出・評価が可能。",
-                "school-1": "Pythonフレームワーク「Django」で作られた",
-                "school-2": "15以上を含むSQLデータベース",
+                "school-1": "Pythonフレームワーク「Django」で作成された",
+                "school-2": "15以上のテーブルを含むSQLデータベース",
                 "school-3": "認証付きのAPI"
             }
         }
