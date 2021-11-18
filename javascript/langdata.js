@@ -52,7 +52,8 @@ let langdata = {
                 "contact-text": "Below is a link to my full resume and contact information. Feel free to reach out in whatever way works best.",
                 "resume-button": "Download Resume",
                 "school-title": "School Management System",
-                "school-desc": "A complete web application and API that allows students and instructors to manage their courses, view lectures, submit and grade assignments.",
+                "school-desc": "A complete web application and API that allows students and instructors to manage their courses, view lectures, submit and grade assignments. Visit the site ",
+                "school-link": "here!",
                 "school-1": "Built with the Django framework",
                 "school-2": "SQL database with 15+ related tables",
                 "school-3": "Fully fleshed out API with authentication"
