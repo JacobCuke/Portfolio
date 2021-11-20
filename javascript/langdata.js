@@ -14,7 +14,7 @@ let langdata = {
                 "projects-text": "Below are some of the projects that I'm most proud of, and I feel best represent both my abilities as a programmer and my passion for growing and learning new technologies.",
                 "mysouko-title": "MySouko",
                 "mysouko-desc": "A web application I built to keep track of all the Japanese books/TV shows/games etc. that I've consumed in order to hone my language skills.",
-                "mysouko-link": "Check it out here.",
+                "mysouko-link": " Check it out here!",
                 "mysouko-1": "Made using the Django framework in Python",
                 "mysouko-2": "Postgres SQL database",
                 "mysouko-3": "File storage with AWS S3",
@@ -52,7 +52,7 @@ let langdata = {
                 "resume-button": "Download Resume",
                 "school-title": "School Management System",
                 "school-desc": "A complete web application and API that allows students and instructors to manage their courses, view lectures, submit and grade assignments.",
-                "school-link": "Visit the site here!",
+                "school-link": " Visit the site here!",
                 "school-1": "Built with the Django framework",
                 "school-2": "SQL database with 15+ related tables",
                 "school-3": "Fully fleshed out API with authentication"
