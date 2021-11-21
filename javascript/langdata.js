@@ -38,7 +38,7 @@ let langdata = {
                 "portfolio-1": "HTML/CSS/JavaScript",
                 "portfolio-2": "Mobile responsive",
                 "portfolio-3": "Multi-language support",
-                "japanese-text": "I first became interested in Japan just before entering university, and after 5 years of consistently studying on my own I managed to learn the language to fluency. Learning Japanese was instrumental in teaching me the importance of discipline and hard work when learning a new skill.",
+                "japanese-text": "I first became interested in Japan just before entering university, and after 5 years of consistent self-studying I managed to learn the language to fluency. Learning Japanese was instrumental in teaching me the importance of discipline and hard work when learning a new skill.",
                 "exchange-head": "Study Abroad",
                 "exchange-text": "I spent a total of 9 months across two separate trips to Japan studying at Senshu University in Tokyo. While there I studied both Computer Science and Japanese culture, while also volunteering as a translator/interpreter in my free time.",
                 "speech-head": "Speeches",
