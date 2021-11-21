@@ -9,7 +9,7 @@ let langdata = {
                 "contact-head": "Resume",
                 "lang-selector": "日本語",
                 "main-desc": "Web Developer / Programmer",
-                "about-text": "After graduating with distinction in Computer Science from the University of Calgary I began my career as a Full Stack Web Developer. It was my love for logic and problem solving, combined with the visual nature of web development that drew me to this career path. I love working on the back-end with databases and APIs just as much as I do on the front-end bringing designs to life. You may have noticed I also have a love for the country of Japan, and have managed to teach myself the Japanese language to fluency.",
+                "about-text": "After graduating with distinction in Computer Science from the University of Calgary I began my career as a Full Stack Web Developer. It was my love for logic and problem solving, combined with the visual nature of web development that drew me to this career path. I love working on the back-end with databases and APIs as much as I do on the front-end bringing designs to life. I also have a love for the country of Japan, and have managed to teach myself the Japanese language to fluency.",
                 "skillset-head": "Skill Set",
                 "projects-text": "Below are some of the projects that I'm most proud of, and I feel best represent both my abilities as a programmer and my passion for growing and learning new technologies.",
                 "mysouko-title": "MySouko",
